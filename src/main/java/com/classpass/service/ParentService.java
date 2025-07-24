@@ -54,7 +54,6 @@ public class ParentService {
                 .uniqueResult();
 
         if (parent != null && parent.getChild() != null) {
-            // Force lazy collections to load before session closes
             parent.getChild().getAttendanceList().size();
             parent.getChild().getRemarks().size();
         }

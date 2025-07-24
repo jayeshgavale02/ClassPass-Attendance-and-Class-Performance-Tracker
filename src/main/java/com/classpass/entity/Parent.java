@@ -22,7 +22,6 @@ public class Parent {
 
 	public Parent() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Parent(Long id, User user, String name, String phone, Student child) {

@@ -7,8 +7,8 @@ import lombok.Data;
 public class ParentDao {
     private String name;
     private String phone;
-    private Long userId;     // Refers to User entity
-    private Long studentId;  // Refers to Student entity (child)
+    private Long userId;     
+    private Long studentId;  
 	public String getName() {
 		return name;
 	}

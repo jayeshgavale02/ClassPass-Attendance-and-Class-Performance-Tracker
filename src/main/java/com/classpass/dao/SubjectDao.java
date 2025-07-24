@@ -4,7 +4,7 @@ package com.classpass.dao;
 public class SubjectDao {
     private String name;
     private String className;
-    private Long teacherId; // reference Teacher entity
+    private Long teacherId; 
 	public String getName() {
 		return name;
 	}

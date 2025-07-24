@@ -23,7 +23,6 @@ public class Attendance {
 
 	public Attendance() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Attendance(Long id, LocalDate date, boolean present, Student student, Subject subject) {

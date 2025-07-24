@@ -9,7 +9,6 @@ public class StudentDao {
     private String className;
 	public StudentDao() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	public StudentDao(Long userId, String fullName, String className) {
 		this.userId = userId;
