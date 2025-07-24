@@ -6,10 +6,10 @@ import jakarta.persistence.*;
 @Entity
 public class Parent {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @OneToOne
-    @MapsId
     @JoinColumn(name = "user_id")
     private User user;
 

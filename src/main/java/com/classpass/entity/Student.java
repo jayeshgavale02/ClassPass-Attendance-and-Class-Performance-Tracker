@@ -8,6 +8,7 @@ import jakarta.persistence.*;
 @Entity
 public class Student {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id; // same as user_id
 
     @OneToOne
